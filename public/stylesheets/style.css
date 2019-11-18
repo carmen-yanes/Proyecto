@@ -1,0 +1,157 @@
+
+
+@import url('https://fonts.googleapis.com/css?family=Oswald|Roboto|Vidaloka&display=swap');
+*, ::before, ::after {
+    box-sizing: border-box;
+   margin: auto;
+  }
+ 
+
+header {
+    display: flex;
+    background-color:#ed1a2d;
+    width: 100%; /* hacemos que la cabecera ocupe el ancho completo de la página */
+	left: 0; /* Posicionamos la cabecera al lado izquierdo */
+    top: 0; /* Posicionamos la cabecera pegada arriba */
+    border-radius: 3px;
+   
+}
+.logo-link{
+margin-left: 100px;
+margin-right: 2px;
+}
+.logo{
+    width: 120px;
+    margin: 0.1em;
+    margin-right: 3px;
+    margin-left: 3px;
+}
+
+.blog{
+    margin-left: 75px;
+}
+header ul{
+    position: static;
+    margin-top: 4.5em;
+
+    
+}
+
+
+.item-page {
+    display: inline-block;
+    font-size: 20px;
+    padding: 0 20px;
+    text-decoration: none;
+    border-left: 3px solid white ;
+    text-align: center;
+    font-family: 'Oswald', cursive;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+    margin: 0px 1px 0px 6px;
+  
+}
+body {
+    background-color: white;
+    font-family: 'Acme', sans-serif;
+    text-align: center;
+    height: 100%;
+    font-weight: 600;
+}
+li a {
+    color: white;
+    text-decoration: none;
+}
+ header a:hover{
+    color: black ;
+   
+}
+
+.promo-title{
+    display: table;
+    margin-left: 94px;
+    font-size: 25px;
+
+}
+body ul li{
+display: inline-block;
+}
+
+
+ul.promotion{
+    font-size: 100px; 
+}
+.description{
+text-align: start;
+color: black;
+font-size: 20px;
+
+}
+
+.Login-btn{
+    border: 3px transparent solid;
+    font-family: 'Acme', sans-serif;
+    padding: 0.3em;
+    position: relative;
+    text-decoration: none;
+    background-color: white;
+    border-color: white;
+    color: gray;
+    font-weight: 600;
+    border-radius: 10em; 
+    margin-right: 15px;
+}
+
+.Login-btn-car{
+    border: 3px transparent solid;
+    box-shadow: 0.3m;
+    font-family: 'Acme', sans-serif;
+    padding: 0.3em;
+    text-transform: uppercase;
+    background-color: #ed1a2d;;
+    border-color: #ed1a2d;;
+    color: white;
+    border-radius: 2em;
+
+}
+
+
+.add-car button{
+    border: 3px transparent solid;
+    border-radius: 1.5em;
+    box-shadow: 0.3m;
+    opacity: 0.8;
+    padding: 1em;
+    text-transform: uppercase;
+    background-color: #148f6a;
+    color: white;
+    border-color: #148f6a;
+    font-weight: 600;
+    
+}
+.add-car{
+    text-align: center;
+    
+}
+
+footer{
+    background-color:#ed1a2d;
+    margin: 4em 0em -4em;
+    justify-content: center;
+    color: white;
+    font-family: 'Acme', sans-serif;
+    border-radius: 3px;
+
+}
+footer ul li{
+    display: inline-block;
+
+}
+
+ul.Social-links{
+    font-size: 5em;
+}
+.Social-links:hover{
+  color: gray;
+}
+
